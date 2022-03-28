@@ -64,7 +64,7 @@ function App() {
   return (
     <Context.Provider value={{ removeTodo }}>
       <div className="App">
-        <p className="title"> Todo LIst</p>
+        <p className="title"> Todo List</p>
 
         <AddTodo onCreate={addTodo}></AddTodo>
         {/* Условие 
